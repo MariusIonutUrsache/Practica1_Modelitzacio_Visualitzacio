@@ -1,7 +1,7 @@
 # Pràctica 1: Modelització i Visualització de Dades 
 
 **Autor:** Marius Ionut Ursache    
-**Grau en Enginyeria Informàtica** — Universitat Rovira i Virgili (URV)  
+**Grau en Enginyeria Informàtica** - Universitat Rovira i Virgili (URV)  
 **Any acadèmic:** 2026-2027  
 
 
@@ -17,17 +17,16 @@ A partir de la detecció d'errors perceptius i metodològics segons les teories 
 
 ## Estructura del Repositori
 
-├── Dades/
-│   └── dataset.csv              # Dades en brut extretes de la visualització de Datawrapper
-├── Resultats/
-│   ├── dataset_preprocesat.csv  # Sèrie històrica transformada amb noves mètriques
-│   ├── grafic_interactiu.html   # Visualització interactiva Plotly (obrir al navegador)
-│   ├── Temperatura Mitjana.png  # Captura de la vista de temperatura i tendència
-│   └── Anomalia Termica.png     # Captura de la vista d'anomalia
-├── Scripts/
-│   ├── ProcessarDades.py        # Script per a la neteja, normalització i càlculs estadístics
-│   └── GenerarGrafic.py         # Script per a la generació de la figura interactiva HTML
-└── README.md                    # Documentació tècnica del repositori
+Dades/dataset.csv              # Dades en brut extretes de la visualització de Datawrapper
+Resultats/
+    dataset_preprocesat.csv  # Sèrie històrica transformada amb noves mètriques
+    grafic_interactiu.html   # Visualització interactiva Plotly (obrir al navegador)
+    Temperatura Mitjana.png  # Captura de la vista de temperatura i tendència
+    Anomalia Termica.png     # Captura de la vista d'anomalia
+Scripts/
+    ProcessarDades.py        # Script per a la neteja, normalització i càlculs estadístics
+    GenerarGrafic.py         # Script per a la generació de la figura interactiva HTML
+README.md                    # Documentació tècnica del repositori
 
 
 ## Requisits i Entorn d'Execució
